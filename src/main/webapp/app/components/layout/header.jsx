@@ -24,7 +24,7 @@ var Header = React.createClass({
               <li title={"You are " + (this.props.loggedIn ? '' : 'not') + " logged in."} className="li right">  
                 {this.props.loggedIn ? (
 
-                  <span>&#123;&#123;#IF LOGGED_IN &#125;&#125; {t('Hi')}, <b>&#123;&#123;{localStorage.name}&#125;&#125;</b> <Link to="/logout"><u>{t('Logout')}</u></Link> &#123;&#123;/IF&#125;&#125;</span>
+                  <span>&#123;&#123;#IF LOGGED_IN &#125;&#125; {t('Hi 2')}, <b>&#123;&#123;{localStorage.name}&#125;&#125;</b> <Link to="/logout"><u>{t('Logout')}</u></Link> &#123;&#123;/IF&#125;&#125;</span>
                   
                 ) : (
                   <span>
